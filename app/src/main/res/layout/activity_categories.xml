@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_rect_bg"
+    android:orientation="vertical"
+    tools:context=".Categories">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/set_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme"></androidx.appcompat.widget.Toolbar>
+
+
+    <GridView
+        android:id="@+id/catGridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="12dp"
+        android:numColumns="1"
+        android:verticalSpacing="12dp">
+
+    </GridView>
+
+
+</LinearLayout>
